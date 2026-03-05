@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shoe Store</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, #111, #333);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.btn {
+    background: #E63946;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #c92c3a;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Urban Kicks</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Step Into Style</h2>
+    <p>Premium Quality Sneakers</p>
+    <button class="btn">Shop Now</button>
+</section>
+
+<section class="products">
+    <div class="card">
+        <h3>Running Shoe</h3>
+        <p>$79.99</p>
+    </div>
+    <div class="card">
+        <h3>Casual Sneaker</h3>
+        <p>$59.99</p>
+    </div>
+    <div class="card">
+        <h3>Sport Trainer</h3>
+        <p>$99.99</p>
+    </div>
+</section>
+
+</body>
+</html>
